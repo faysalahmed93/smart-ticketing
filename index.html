@@ -14,6 +14,7 @@
 
     <!-- custom-css-link -->
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
   </head>
   <body class="w-10/12 m-auto">
     <head class="">
@@ -40,7 +41,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box md:w-52"
               >
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
@@ -48,7 +49,7 @@
                 <li><a>Search</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">O-Ticket</a>
+            <a class="btn btn-ghost text-xl">T-Ticket</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -64,6 +65,72 @@
         </div>
       </nav>
       <!-- menu end  -->
+      <!-- banner start  -->
+      <div>
+        <div
+          class="hero rounded-2xl object-fill bg-center bg-cover h-full md:h-[470px]"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-overlay rounded-2xl bg-opacity-25"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="w-4/5">
+              <h1 class="my-6 text-5xl font-extrabold text-[64px]">
+                End-to-End Travel with <br /><span class="paragraph-color-text"
+                  >T Paribahan</span
+                >
+              </h1>
+              <p class="mb-5 text-lg text-white">
+                Yes, you can run unit tests and view the results directly within
+                the app. The integrated testing features allow for a streamlined
+                .
+              </p>
+              <button
+                class="btn primary-green border-none font-bold font-raleway text-[#030712] mb-4"
+              >
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+          <!-- banner down- content  -->
+          <div
+            class="flex w-10/12 flex-col md:flex-row gap-6 relative top-full md:top-2/4"
+          >
+            <!-- single-content  -->
+            <div class="hero bg-white rounded-3xl font-inter">
+              <div class="hero-content flex-col lg:flex-row">
+                <img src="images/people.png" />
+                <div>
+                  <h1 class="font-bold text-3xl">500K+</h1>
+                  <p class="py-6 text-lg">Registered users</p>
+                </div>
+              </div>
+            </div>
+            <!-- single-content  -->
+            <div class="hero bg-white rounded-3xl">
+              <div class="hero-content flex-col lg:flex-row">
+                <img src="images/ticket-cupon.png" />
+                <div>
+                  <h1 class="font-bold text-3xl">1.7 lacks</h1>
+                  <p class="py-6 text-lg">Tickets sold</p>
+                </div>
+              </div>
+            </div>
+            <!-- single-content  -->
+            <div class="hero bg-white rounded-3xl">
+              <div class="hero-content flex-col lg:flex-row">
+                <img src="images/stoppage.png" />
+                <div>
+                  <h1 class="font-bold text-3xl">80K+</h1>
+                  <p class="py-6">Rental partners</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- banner down content -->
+        </div>
+      </div>
+
+      <!-- banner end  -->
     </head>
     <main></main>
     <footer></footer>

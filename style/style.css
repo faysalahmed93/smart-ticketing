@@ -8,3 +8,12 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
+.heading-color {
+  color: #030712;
+}
+.paragraph-color-text {
+  color: #1dd100;
+}
+.primary-green {
+  background: #1dd100;
+}

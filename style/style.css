@@ -8,8 +8,21 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
+/* 100 */
 .heading-color {
   color: #030712;
+}
+/* 80 */
+.sub-heading {
+  color: #030712cc;
+}
+/* 50 */
+.primary-paragraph {
+  color: #03071280;
+}
+/* 40 */
+.sub-text {
+  color: #03071266;
 }
 .paragraph-color-text {
   color: #1dd100;

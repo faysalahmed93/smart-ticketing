@@ -93,10 +93,12 @@
           </div>
           <!-- banner down- content  -->
           <div
-            class="flex w-10/12 flex-col md:flex-row gap-6 relative top-full md:top-2/4"
+            class="flex w-10/12 flex-col md:flex-row gap-6 relative top-full md:top-2/4 hidden"
           >
             <!-- single-content  -->
-            <div class="hero bg-white rounded-3xl font-inter">
+            <div
+              class="hero bg-white rounded-3xl font-inter border-b-4 border-[#1dd100]"
+            >
               <div class="hero-content flex-col lg:flex-row">
                 <img src="images/people.png" />
                 <div>
@@ -106,7 +108,7 @@
               </div>
             </div>
             <!-- single-content  -->
-            <div class="hero bg-white rounded-3xl">
+            <div class="hero bg-white rounded-3xl border-b-4 border-[#1dd100]">
               <div class="hero-content flex-col lg:flex-row">
                 <img src="images/ticket-cupon.png" />
                 <div>
@@ -116,7 +118,7 @@
               </div>
             </div>
             <!-- single-content  -->
-            <div class="hero bg-white rounded-3xl">
+            <div class="hero bg-white rounded-3xl border-b-4 border-[#1dd100]">
               <div class="hero-content flex-col lg:flex-row">
                 <img src="images/stoppage.png" />
                 <div>
@@ -132,7 +134,61 @@
 
       <!-- banner end  -->
     </head>
-    <main></main>
+    <main>
+      <!-- best offers start  -->
+      <section class="my-10 text-center">
+        <h3 class="mb-10 font-raleway font-bold text-4xl heading-color">
+          Best offers for you
+        </h3>
+        <!-- new15 and couple container -->
+        <div class="font-inter grid md:grid-cols-2 gap-4">
+          <!-- new15  -->
+          <div
+            class="flex flex-row gap-10 bg-[#FFBF0F] rounded-3xl p-9 bg-no-repeat bg-center"
+            style="background-image: url(images/cupon-devider.png)"
+          >
+            <div class="space-y-3">
+              <h3 class="sub-heading text-4xl font-black">15% OFF</h3>
+              <p class="sub-heading font-semibold text-xl">
+                on your next purchase
+              </p>
+              <p class="primary-paragraph font-medium text-lg">
+                use by January 2024
+              </p>
+            </div>
+            <div class="font-raleway space-y-3 flex flex-col justify-center">
+              <h3 class="heading-color text-3xl font-bold">NEW15</h3>
+              <p class="sub-text text-xl font-medium">Coupon Code</p>
+            </div>
+          </div>
+          <!-- new15  -->
+          <!-- couple  -->
+          <div
+            class="flex flex-row gap-10 bg-[#F78C9C] rounded-3xl p-9 bg-no-repeat bg-center h-full"
+            style="background-image: url(images/cupon-devider.png)"
+          >
+            <div class="space-y-3">
+              <h3 class="sub-heading text-4xl font-black">20% OFF</h3>
+              <p class="sub-heading font-semibold text-xl">
+                on your next purchase
+              </p>
+              <p class="primary-paragraph font-medium text-lg">
+                use by January 2024
+              </p>
+            </div>
+            <div class="font-raleway space-y-3 flex flex-col justify-center">
+              <h3 class="heading-color text-3xl font-bold">Couple 20</h3>
+              <p class="sub-text text-xl font-medium">Coupon Code</p>
+            </div>
+          </div>
+          <!-- couple  -->
+        </div>
+        <button class="btn btn-outline btn-success my-10">
+          See All Offers
+        </button>
+      </section>
+      <!-- best offers end  -->
+    </main>
     <footer></footer>
   </body>
 </html>

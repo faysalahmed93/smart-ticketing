@@ -194,18 +194,422 @@
       </div>
       <!-- ------------PH-paribahan section start-----------  -->
       <section
-        class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-t-[5.5rem]"
+        class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-t-[5.5rem] font-inter"
       >
         <!-- container -->
         <div class="w-10/12 m-auto py-20">
           <div class="text-center">
-            <h3>P.H Paribahan</h3>
-            <p>
+            <h3 class="font-raleway font-bold heading-color text-4xl">
+              P.H Paribahan
+            </h3>
+            <p class="font-lg text-[#03071299] my-10">
               Yes, you can run unit tests and view the results directly within
               the app. The integrated testing features allow for a streamlined .
             </p>
           </div>
+          <!-- PH Paribahan start -->
+          <!-- top-container -->
+          <div class="flex flex-row justify-between bg-white rounded-3xl p-10">
+            <div class="basis-4/6">
+              <!-- greenline -->
+              <div class="flex flex-row justify-between gap-20">
+                <div class="flex flex-row gap-4">
+                  <img
+                    class="w-[68px] h-[48px]"
+                    src="images/bus-logo.png"
+                    alt=""
+                  />
+                  <div>
+                    <h1 class="font-raleway font-bold heading-color text-3xl">
+                      Greenline Paribahan
+                    </h1>
+                    <p class="text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                  </div>
+                </div>
+
+                <button class="btn bg-[#1DD10026] px-5 text-[#1DD100]">
+                  <img src="images/seat-green.png" alt="" />
+                  <p class="font-medium">
+                    <span id="seat-available">40</span> Seats left
+                  </p>
+                </button>
+              </div>
+              <!-- route -->
+              <div
+                class="flex flex-col justify-between bg-[#F7F8F8] p-6 rounded-3xl my-10 space-y-6"
+              >
+                <div class="flex flex-row justify-between">
+                  <p class="">Route</p>
+                  <h3 class="heading-color font-semibold">Dhaka - Sylhet</h3>
+                </div>
+                <div class="space-y-6">
+                  <div
+                    class="flex flex-row justify-between border-y-2 border-dashed border-[#03071233] py-6"
+                  >
+                    <p>Departure Time</p>
+                    <h3 class="heading-color font-semibold">9:00 PM</h3>
+                  </div>
+                  <div class="flex flex-row justify-between">
+                    <p class="p-4 bg-[#0307120D] sub-heading rounded-xl">
+                      Boarding Point - Laxmipur
+                    </p>
+                    <p class="p-4 bg-[#0307120D] sub-heading rounded-xl">
+                      Dropping Point - Bogura
+                    </p>
+                    <p class="p-4 bg-[#0307120D] sub-heading rounded-xl">
+                      Est. Time - 11 Hour
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 550tk -->
+            <div class="flex flex-col justify-center">
+              <img class="w-[48px] h-[48px]" src="images/fare.png" alt="" />
+              <h3 class="heading-color font-bold font-raleway text-3xl">
+                550 Taka
+              </h3>
+              <p>Per Seat</p>
+            </div>
+          </div>
+          <!-- PH Paribahan end -->
         </div>
+        <!-------------- seats section start --------------------->
+        <section class="bg-white rounded-3xl">
+          <div class="flex flex-row justify-between">
+            <!-- select your seat -->
+            <div>
+              <!-- heading  -->
+              <div>
+                <h1>Select Your Seat</h1>
+                <div
+                  class="flex flex-row justify-between gap-20 border-y-2 border-dashed border-[#03071233]"
+                >
+                  <div class="flex flex-row gap-4">
+                    <img
+                      class="w-[28px] h-[28px]"
+                      src="images/seat-gray.png"
+                      alt=""
+                    />
+                    <div>
+                      <p class="text-[#03071299]">Available</p>
+                    </div>
+                  </div>
+
+                  <button class="btn px-5 text-[#1DD100]">
+                    <img src="images/seat-green-filled.png" alt="" />
+                    <p class="font-medium">Selected</p>
+                  </button>
+                </div>
+                <img
+                  class="bg-[#0307121A] px-8 py-2 rounded-xl"
+                  src="images/tabler-icon.png"
+                  alt=""
+                />
+              </div>
+              <!-- seats -->
+              <!-- A start  -->
+              <ol class="list-none flex flex-row gap-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">A</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  A1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                >
+                  A2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  A3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  A4
+                </li>
+              </ol>
+              <!-- A end -->
+              <!-- B start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">B</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  B1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                >
+                  B2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  B3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  B4
+                </li>
+              </ol>
+              <!-- B end -->
+              <!-- B start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">C</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="C1"
+                >
+                  C1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="C2"
+                >
+                  C2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="C3"
+                >
+                  C3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="C4"
+                >
+                  C4
+                </li>
+              </ol>
+              <!-- C end -->
+              <!-- D start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">D</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="D1"
+                >
+                  D1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="D2"
+                >
+                  D2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="D3"
+                >
+                  D3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="D4"
+                >
+                  D4
+                </li>
+              </ol>
+              <!-- D end -->
+              <!-- E start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">E</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  E1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                >
+                  E2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  E3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                >
+                  E4
+                </li>
+              </ol>
+              <!-- E end -->
+              <!-- F start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">F</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="F1"
+                >
+                  F1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="F2"
+                >
+                  F2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="F3"
+                >
+                  F3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="F4"
+                >
+                  F4
+                </li>
+              </ol>
+              <!-- F end -->
+              <!-- G start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">G</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="G1"
+                >
+                  G1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="G2"
+                >
+                  G2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="G3"
+                >
+                  G3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="G4"
+                >
+                  G4
+                </li>
+              </ol>
+              <!-- G end -->
+              <!-- H start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">H</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="H1"
+                >
+                  H1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="H2"
+                >
+                  H2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="H3"
+                >
+                  H3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="H4"
+                >
+                  H4
+                </li>
+              </ol>
+              <!-- H end -->
+              <!-- I start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">I</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="I1"
+                >
+                  I 1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="I2"
+                >
+                  I 2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="I3"
+                >
+                  I 3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="I4"
+                >
+                  I 4
+                </li>
+              </ol>
+              <!-- I end -->
+              <!-- J start  -->
+              <ol class="list-none flex flex-row gap-10 mt-10">
+                <li class="h-[3.5rem] text-center leading-[3.5rem]">J</li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="J1"
+                >
+                  J1
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl mr-20"
+                  id="J2"
+                >
+                  J2
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="J3"
+                >
+                  J3
+                </li>
+                <li
+                  class="w-[6.875rem] h-[3.5rem] bg-[#F7F8F8] text-center leading-[3.5rem] rounded-xl"
+                  id="J4"
+                >
+                  J4
+                </li>
+              </ol>
+              <!-- J end -->
+            </div>
+            <!-- selected seat -->
+            <div class="basis-2/5">
+              <h1>Select Your Seat</h1>
+              <!-- login -->
+              <form action="#" class="flex flex-col">
+                <div class="flex flex-col">
+                  <label for="">Passenger Name* </label>
+                  <input type="text" placeholder="Enter your name" />
+                </div>
+                <div class="flex flex-col">
+                  <label for="">Phone Number* </label>
+                  <input type="text" placeholder="Enter your phone number" />
+                </div>
+                <div class="flex flex-col">
+                  <label for="">Email ID</label>
+                  <input type="text" placeholder="Enter your email id" />
+                </div>
+              </form>
+              <!-- login -->
+            </div>
+          </div>
+        </section>
+        <!-------------- seats section end --------------------->
       </section>
       <!-- ------------PH-paribahan section end-----------  -->
     </main>

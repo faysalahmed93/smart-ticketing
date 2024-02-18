@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/responsive.css" />
   </head>
-  <body class="w-10/12 m-auto">
-    <head class="">
+  <body class="">
+    <header class="w-10/12 m-auto">
       <!-- menu start  -->
       <nav class="py-4">
         <div class="navbar bg-base-100">
@@ -93,7 +93,7 @@
           </div>
           <!-- banner down- content  -->
           <div
-            class="flex w-10/12 flex-col md:flex-row gap-6 relative top-full md:top-2/4 hidden"
+            class="flex w-10/12 flex-col md:flex-row gap-6 ab top-full md:bottom-2/4 relative hidden"
           >
             <!-- single-content  -->
             <div
@@ -133,62 +133,122 @@
       </div>
 
       <!-- banner end  -->
-    </head>
+    </header>
     <main>
-      <!-- best offers start  -->
-      <section class="my-10 text-center">
-        <h3 class="mb-10 font-raleway font-bold text-4xl heading-color">
-          Best offers for you
-        </h3>
-        <!-- new15 and couple container -->
-        <div class="font-inter grid md:grid-cols-2 gap-4">
-          <!-- new15  -->
-          <div
-            class="flex flex-row gap-10 bg-[#FFBF0F] rounded-3xl p-9 bg-no-repeat bg-center"
-            style="background-image: url(images/cupon-devider.png)"
-          >
-            <div class="space-y-3">
-              <h3 class="sub-heading text-4xl font-black">15% OFF</h3>
-              <p class="sub-heading font-semibold text-xl">
-                on your next purchase
-              </p>
-              <p class="primary-paragraph font-medium text-lg">
-                use by January 2024
-              </p>
+      <div class="w-10/12 m-auto">
+        <!-- best offers start  -->
+        <section class="my-10 text-center">
+          <h3 class="mb-10 font-raleway font-bold text-4xl heading-color">
+            Best offers for you
+          </h3>
+          <!-- new15 and couple container -->
+          <div class="font-inter grid md:grid-cols-2 gap-4">
+            <!-- new15  -->
+            <div
+              class="flex flex-row gap-10 bg-[#FFBF0F] rounded-3xl p-9 bg-no-repeat bg-center"
+              style="background-image: url(images/cupon-devider.png)"
+            >
+              <div class="space-y-3">
+                <h3 class="sub-heading text-4xl font-black">15% OFF</h3>
+                <p class="sub-heading font-semibold text-xl">
+                  on your next purchase
+                </p>
+                <p class="primary-paragraph font-medium text-lg">
+                  use by January 2024
+                </p>
+              </div>
+              <div class="font-raleway space-y-3 flex flex-col justify-center">
+                <h3 class="heading-color text-3xl font-bold">NEW15</h3>
+                <p class="sub-text text-xl font-medium">Coupon Code</p>
+              </div>
             </div>
-            <div class="font-raleway space-y-3 flex flex-col justify-center">
-              <h3 class="heading-color text-3xl font-bold">NEW15</h3>
-              <p class="sub-text text-xl font-medium">Coupon Code</p>
+            <!-- new15  -->
+            <!-- couple  -->
+            <div
+              class="flex flex-row gap-10 bg-[#F78C9C] rounded-3xl p-9 bg-no-repeat bg-center h-full"
+              style="background-image: url(images/cupon-devider.png)"
+            >
+              <div class="space-y-3">
+                <h3 class="sub-heading text-4xl font-black">20% OFF</h3>
+                <p class="sub-heading font-semibold text-xl">
+                  on your next purchase
+                </p>
+                <p class="primary-paragraph font-medium text-lg">
+                  use by January 2024
+                </p>
+              </div>
+              <div class="font-raleway space-y-3 flex flex-col justify-center">
+                <h3 class="heading-color text-3xl font-bold">Couple 20</h3>
+                <p class="sub-text text-xl font-medium">Coupon Code</p>
+              </div>
             </div>
+            <!-- couple  -->
           </div>
-          <!-- new15  -->
-          <!-- couple  -->
-          <div
-            class="flex flex-row gap-10 bg-[#F78C9C] rounded-3xl p-9 bg-no-repeat bg-center h-full"
-            style="background-image: url(images/cupon-devider.png)"
+          <button
+            class="btn btn-outline border-[#1DD100] hover:bg-[#1DD100] hover:text-white hover:border-none my-10"
           >
-            <div class="space-y-3">
-              <h3 class="sub-heading text-4xl font-black">20% OFF</h3>
-              <p class="sub-heading font-semibold text-xl">
-                on your next purchase
-              </p>
-              <p class="primary-paragraph font-medium text-lg">
-                use by January 2024
-              </p>
-            </div>
-            <div class="font-raleway space-y-3 flex flex-col justify-center">
-              <h3 class="heading-color text-3xl font-bold">Couple 20</h3>
-              <p class="sub-text text-xl font-medium">Coupon Code</p>
-            </div>
+            See All Offers
+          </button>
+        </section>
+        <!-- best offers end  -->
+      </div>
+      <!-- ------------PH-paribahan section start-----------  -->
+      <section
+        class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-t-[5.5rem]"
+      >
+        <!-- container -->
+        <div class="w-10/12 m-auto py-20">
+          <div class="text-center">
+            <h3>P.H Paribahan</h3>
+            <p>
+              Yes, you can run unit tests and view the results directly within
+              the app. The integrated testing features allow for a streamlined .
+            </p>
           </div>
-          <!-- couple  -->
         </div>
-        <button class="btn btn-outline btn-success my-10">
-          See All Offers
-        </button>
       </section>
-      <!-- best offers end  -->
+      <!-- ------------PH-paribahan section end-----------  -->
     </main>
-    <footer></footer>
+    <!-- footer -->
+    <footer class="bg-[#030712]">
+      <!-- footer -->
+      <div class="w-10/12 m-auto">
+        <!-- footer-top  -->
+        <div class="footer flex flex-row justify-between font-inter py-20">
+          <div class="">
+            <h3 class="font-raleway text-white text-4xl font-extrabold">
+              P-Tic ket
+            </h3>
+            <p class="font-normal text-lg text-[#FFFFFFCC]">
+              P-Ticket is a digital platform to make your daily commuting
+              better.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-raleway font-semibold text-2xl text-white">
+              Download our app
+            </h4>
+            <img src="images/playstore.png" alt="" />
+          </div>
+        </div>
+        <!-- footer-bottom -->
+        <div
+          class="footer items-center py-6 border-dashed border-t-2 border-[#FFFFFF4D]"
+        >
+          <aside class="items-center grid-flow-col">
+            <p class="font-normal text-[#FFFFFFB3]">
+              Copyright © 2024 - All right reserved
+            </p>
+          </aside>
+          <nav
+            class="grid-flow-col gap-4 md:place-self-center md:justify-self-end list-none text-white font-medium text-base mb-10"
+          >
+            <li><a>Terms & condition</a></li>
+            <li><a>Return & refund policy</a></li>
+            <li><a>Privacy policy</a></li>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

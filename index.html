@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style/responsive.css" />
   </head>
   <body class="">
-    <header class="w-10/12 m-auto">
+    <header id="header-id" class="w-10/12 m-auto">
       <!-- menu start  -->
       <nav class="py-4">
         <div class="navbar bg-base-100">
@@ -278,7 +278,7 @@
         </div>
         <!-------------- seats section start --------------------->
         <section class="w-10/12 m-auto py-20 bg-[#FFFFFF] rounded-3xl">
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-col md:flex-row md:justify-between">
             <!-- select your seat -->
             <div class="px-6">
               <!-- heading  -->
@@ -399,7 +399,11 @@
                         <th
                           class="px-6 py-3 text-xs leading-4 font-medium text-gray-600 tracking-wider"
                         >
-                          Seat <span id="click-seat"></span>
+                          Seat
+                          <span
+                            class="p-2 text-[#1dd100]"
+                            id="click-seat"
+                          ></span>
                         </th>
                         <th
                           class="px-6 py-3 text-xs leading-4 font-medium text-gray-600 tracking-wider"
@@ -422,9 +426,12 @@
                   </table>
                   <div class="flex flex-row justify-between">
                     <p>Total Price</p>
-                    <p>BDT</p>
+                    <p>BDT <span id="total-price"></span></p>
                   </div>
-                  <p>Discount amount <span id="Discount-ammount">BDT</span></p>
+                  <p>
+                    Discount amount
+                    <span id="Discount-ammount">BDT</span>
+                  </p>
                   <form action="/submit" method="post" class="flex mt-10">
                     <input
                       type="text"
@@ -436,7 +443,7 @@
                       type="submit"
                       class="bg-[#1dd100] text-white p-2 rounded-r"
                     >
-                      Apply
+                      <a href="" id="apply">Apply</a>
                     </button>
                   </form>
                   <div class="flex flex-row justify-between">
@@ -495,6 +502,7 @@
                   <button
                     type="submit"
                     class="bg-[#1dd100] text-white p-2 rounded w-full"
+                    id="next-button"
                   >
                     Next
                   </button>
@@ -507,6 +515,13 @@
 
               <!-- login -->
             </div>
+            <!-- popup -->
+            <!-- Popup HTML -->
+            <div class="popup hidden" id="success-popup">
+              <p>Success!</p>
+              <button id="close-popup">Continue</button>
+            </div>
+            <!-- popup -->
           </div>
         </section>
         <!-------------- seats section end --------------------->
